@@ -1,18 +1,31 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import Footer from './components/Footer'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import './App.css'
+
+// Import components
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Practice from './pages/Practice'
+import PoemsSelection from './pages/PoemsSelection'
+import PoemQuotes from './pages/PoemQuotes'
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-grow">
-        <Hero />
-        <Features />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-slate-50 flex flex-col">
+        <Navbar />
+        <main className="flex-grow container mx-auto px-4 py-8">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/practice/:topic" element={<Practice />} />
+            <Route path="/quotes" element={<PoemsSelection />} />
+            <Route path="/quotes/:poemId" element={<PoemQuotes />} />
+          </Routes>
+        </main>
+        <footer className="bg-slate-800 text-white p-4 text-center">
+          <p>© {new Date().getFullYear()} English GCSE Revision App</p>
+        </footer>
+      </div>
+    </Router>
   )
 }
 
