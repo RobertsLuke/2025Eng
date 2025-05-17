@@ -1,0 +1,11 @@
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+/* Custom base styles */
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
