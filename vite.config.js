@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/ExamSeasonTemplate/', // GitHub Pages repository name
+  base: '/2025Eng/', // GitHub Pages repository name
 })
