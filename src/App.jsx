@@ -5,8 +5,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Practice from './pages/Practice'
-import PoemsSelection from './pages/PoemsSelection'
-import PoemQuotes from './pages/PoemQuotes'
+import ModuleOverview from './pages/ModuleOverview'
+import LearnModule from './pages/LearnModule'
 
 function App() {
   return (
@@ -17,12 +17,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/practice/:topic" element={<Practice />} />
-            <Route path="/quotes" element={<PoemsSelection />} />
-            <Route path="/quotes/:poemId" element={<PoemQuotes />} />
+            <Route path="/module/:moduleId" element={<ModuleOverview />} />
+            <Route path="/learn/:moduleId" element={<LearnModule />} />
           </Routes>
         </main>
         <footer className="bg-slate-800 text-white p-4 text-center">
-          <p>© {new Date().getFullYear()} English GCSE Revision App</p>
+          <p>© {new Date().getFullYear()} Programming Languages Learning</p>
         </footer>
       </div>
     </Router>

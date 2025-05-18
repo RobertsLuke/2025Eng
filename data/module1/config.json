@@ -1,0 +1,24 @@
+{
+  "moduleId": "module1",
+  "moduleTitle": "Introduction to Programming Languages",
+  "moduleDescription": "Learn about the basic concepts and categorization approaches for programming languages.",
+  "learningObjectives": [
+    "Understand what programming languages are and their purpose",
+    "Learn the different ways programming languages can be categorized",
+    "Distinguish between different types of programming languages",
+    "Recognize different programming paradigms",
+    "Understand the difference between imperative and declarative approaches"
+  ],
+  "contentFiles": {
+    "teaching": "teaching.json",
+    "questions": "questions.json",
+    "checkpoint": "checkpoint.json"
+  },
+  "sequence": [
+    "teachingContent",
+    "multipleChoiceQuestions",
+    "checkpointConfirmation"
+  ],
+  "passingScore": 70,
+  "timeEstimate": "30 minutes"
+}

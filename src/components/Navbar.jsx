@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="bg-slate-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="font-bold text-xl">English GCSE Revision</Link>
+        <Link to="/" className="font-bold text-xl">Programming Languages Learning</Link>
         
         {/* Mobile menu button */}
         <button 
@@ -23,10 +23,7 @@ const Navbar = () => {
         {/* Desktop menu */}
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-emerald-300 transition-colors">Home</Link>
-          <Link to="/practice/word-classes" className="hover:text-emerald-300 transition-colors">Word Classes</Link>
-          <Link to="/practice/language-devices" className="hover:text-emerald-300 transition-colors">Language Devices</Link>
-          <Link to="/practice/more-devices" className="hover:text-emerald-300 transition-colors">More Devices</Link>
-          <Link to="/quotes" className="hover:text-emerald-300 transition-colors">Key Quotes</Link>
+          <Link to="/module/module1" className="hover:text-emerald-300 transition-colors">Module 1</Link>
         </div>
       </div>
       
@@ -42,32 +39,11 @@ const Navbar = () => {
               Home
             </Link>
             <Link 
-              to="/practice/word-classes" 
+              to="/module/module1" 
               className="block hover:bg-slate-700 px-3 py-2 rounded"
               onClick={() => setIsMenuOpen(false)}
             >
-              Word Classes
-            </Link>
-            <Link 
-              to="/practice/language-devices" 
-              className="block hover:bg-slate-700 px-3 py-2 rounded"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Language Devices
-            </Link>
-            <Link 
-              to="/practice/more-devices" 
-              className="block hover:bg-slate-700 px-3 py-2 rounded"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              More Devices
-            </Link>
-            <Link 
-              to="/quotes" 
-              className="block hover:bg-slate-700 px-3 py-2 rounded"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Key Quotes
+              Module 1: Introduction to Programming Languages
             </Link>
           </div>
         </div>

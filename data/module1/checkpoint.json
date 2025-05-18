@@ -1,0 +1,22 @@
+{
+  "checkpointTitle": "Module 1 Checkpoint",
+  "confirmationPrompt": "You've completed the introduction to programming languages, covering basic concepts and categorization approaches. Do you understand the different ways programming languages can be categorized and their key characteristics?",
+  "confirmationOptions": [
+    "Yes, I understand the material and am ready to proceed",
+    "I'd like to review the material again before proceeding",
+    "I need additional clarification on some concepts"
+  ],
+  "additionalResources": [
+    {
+      "title": "Programming Language Categories Visual Map",
+      "description": "A visual representation of how different programming languages fit into the categories we've discussed",
+      "link": "programming_languages_map.png"
+    },
+    {
+      "title": "Historical Timeline of Programming Languages",
+      "description": "See how programming languages have evolved over time",
+      "link": "programming_languages_timeline.png"
+    }
+  ],
+  "nextModulePreview": "Next, you'll learn about specific programming domains and how different languages are optimized for different types of applications."
+}

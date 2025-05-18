@@ -1,0 +1,23 @@
+{
+  "courseTitle": "Programming Languages and Applications",
+  "courseDescription": "Learn about different programming languages, their categorizations, historical significance, and applications.",
+  "modules": [
+    {
+      "id": "module1",
+      "title": "Introduction to Programming Languages",
+      "description": "Basic concepts and categorization approaches",
+      "path": "module1/config.json",
+      "order": 1,
+      "status": "available"
+    },
+    {
+      "id": "module2",
+      "title": "Programming Domains",
+      "description": "How different languages serve different application areas",
+      "path": "module2/config.json",
+      "order": 2,
+      "status": "locked",
+      "prerequisite": "module1"
+    }
+  ]
+}

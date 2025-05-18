@@ -1,0 +1,26 @@
+{
+  "moduleTitle": "Introduction to Programming Languages",
+  "sections": [
+    {
+      "title": "What are Programming Languages?",
+      "content": "Programming languages are formal languages used to communicate instructions to a computer. They allow humans to write code that can be translated into machine-readable instructions. Each programming language has its own syntax, semantics, and purpose."
+    },
+    {
+      "title": "Domain of Uses and Applications",
+      "content": "Programming languages are designed with specific uses in mind. Some are created for scientific computing, others for business applications, web development, artificial intelligence, or systems programming. The intended domain often influences the features and design of a language."
+    },
+    {
+      "title": "Categorization by Uses",
+      "content": "Programming languages can be categorized by their primary uses:\n\n- Machine languages: Hardware-implemented languages that consist of binary or hexadecimal instructions directly executed by the CPU\n- Assembly languages: Low-level languages that use mnemonic codes to represent machine instructions\n- High-level languages: Machine-independent languages with syntax closer to natural language (e.g., C, Java)\n- System programming languages: Languages designed for creating operating systems and low-level software (e.g., C, C++)\n- Scripting languages: Languages used for automating tasks or connecting applications (e.g., Python, PHP)\n- Domain-specific languages: Languages designed for specific application domains (e.g., SQL for databases, PostScript for printing)"
+    },
+    {
+      "title": "Categorization by Paradigms",
+      "content": "Programming languages are also categorized by their programming paradigms:\n\n- Procedural: Programs built from procedures and functions (e.g., C, Pascal)\n- Object-oriented: Programs built around objects and classes (e.g., Java, C++)\n- Functional: Programs built by applying functions to values (e.g., Haskell, LISP)\n- Logic: Programs built using logical rules (e.g., Prolog)"
+    },
+    {
+      "title": "Categorization by Task Specification",
+      "content": "Programming languages can be classified by how tasks are specified:\n\n- Imperative languages: Define computation as a sequence of statements that change program state (e.g., C, Java)\n- Declarative languages: Define what should be accomplished without specifying how (e.g., SQL, Haskell, Prolog)"
+    }
+  ],
+  "summary": "Programming languages are formal languages used to instruct computers. They can be categorized by their uses (machine, assembly, high-level, system, scripting, domain-specific), by their paradigms (procedural, object-oriented, functional, logic), and by how they specify tasks (imperative vs. declarative)."
+}

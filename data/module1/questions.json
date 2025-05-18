@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is NOT a way to categorize programming languages?",
+      "options": [
+        "By their uses (e.g., scientific, business)",
+        "By their paradigms (e.g., procedural, functional)",
+        "By their task specification approach (e.g., imperative, declarative)",
+        "By their popularity in the industry"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Programming languages are typically categorized by their uses/domains, by their paradigms, and by how they specify tasks. While popularity may be discussed, it is not a formal categorization method covered in this module."
+    },
+    {
+      "question": "Which category of programming languages is closest to the hardware?",
+      "options": [
+        "High-level languages",
+        "Scripting languages",
+        "Machine languages",
+        "Domain-specific languages"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Machine languages consist of binary or hexadecimal instructions that are directly executed by the CPU, making them the closest to the hardware."
+    },
+    {
+      "question": "What is the primary characteristic of high-level programming languages?",
+      "options": [
+        "They are always interpreted rather than compiled",
+        "They are machine-independent and more readable than low-level languages",
+        "They can only be used for web development",
+        "They always follow the object-oriented paradigm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "High-level languages are designed to be machine-independent (not tied to specific hardware) and have syntax that is more readable and similar to natural language compared to low-level languages."
+    },
+    {
+      "question": "Which of the following best describes a procedural programming language?",
+      "options": [
+        "A language where programs are built by applying functions to values",
+        "A language where programs are built from procedures and functions",
+        "A language based on logical rules and pattern matching",
+        "A language specifically designed for one application domain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Procedural programming languages focus on building programs from procedures (also known as subroutines or functions). Examples include C and Pascal."
+    },
+    {
+      "question": "What is the key difference between imperative and declarative programming languages?",
+      "options": [
+        "Imperative languages are always compiled, while declarative languages are always interpreted",
+        "Imperative languages use variables, while declarative languages do not",
+        "Imperative languages specify how to accomplish tasks step-by-step, while declarative languages focus on what should be accomplished",
+        "Imperative languages are older, while declarative languages are newer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Imperative languages focus on defining exactly how something should be done through step-by-step commands, while declarative languages focus on what should be accomplished without specifying the exact steps."
+    },
+    {
+      "question": "Which of the following is an example of a functional programming language?",
+      "options": [
+        "Java",
+        "C",
+        "Python",
+        "Haskell"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Haskell is a purely functional programming language. While Python supports some functional programming features, it is primarily a multi-paradigm language. Java and C are primarily procedural/object-oriented languages."
+    },
+    {
+      "question": "Scripting languages are typically used for:",
+      "options": [
+        "Creating operating systems",
+        "Automating tasks and connecting applications",
+        "Designing database schemas",
+        "Performing complex mathematical calculations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Scripting languages like Python, PHP, and JavaScript are commonly used for automating tasks, connecting different applications together, and other utility tasks that don't require the overhead of a full compiled language."
+    },
+    {
+      "question": "Domain-specific languages (DSLs) are:",
+      "options": [
+        "Languages used only by domain experts in specific scientific fields",
+        "Languages that can only be used in certain geographical domains",
+        "Languages designed for specific application domains with specialized features",
+        "Languages that are restricted to certain hardware domains"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Domain-specific languages are designed for specific application domains and include specialized features for those domains. Examples include SQL for database queries, HTML for web markup, and MATLAB for mathematical computations."
+    },
+    {
+      "question": "Which of the following languages is primarily used for logic programming?",
+      "options": [
+        "C++",
+        "Java",
+        "Prolog",
+        "JavaScript"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prolog is the most well-known logic programming language. It uses a declarative paradigm based on formal logic, where programs consist of facts and rules rather than sequential instructions."
+    },
+    {
+      "question": "Assembly languages differ from machine languages in that they:",
+      "options": [
+        "Are completely hardware-independent",
+        "Use mnemonic codes instead of binary or hexadecimal instructions",
+        "Can only be used for web development",
+        "Always follow the object-oriented paradigm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Assembly languages use mnemonic codes and symbols to represent machine instructions, making them more readable than pure machine language (binary or hexadecimal), while still maintaining a close relationship with the hardware."
+    }
+  ]
+}
